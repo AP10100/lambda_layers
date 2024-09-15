@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        AWS_DEFAULT_REGION = 'ap-south-1' // Replace 'your-region' with your AWS region (e.g., 'us-east-1')
-        LAMBDA_LAYER_NAME = 'testing_lambda_layer' // Replace 'your-layer-name' with your desired layer name
+        AWS_DEFAULT_REGION = 'ap-south-1' 
+        LAMBDA_LAYER_NAME = 'testing_lambda_layer' 
         BUILD_DIRECTORY_PATH = "${WORKSPACE}/lambda-layer"
     }
 
